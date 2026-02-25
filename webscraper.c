@@ -24,6 +24,4 @@ int main(void) {
 
     curl_easy_cleanup(curl);
     curl_global_cleanup();
-
-    return 0;
 }
